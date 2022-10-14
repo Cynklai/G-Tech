@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    padding: 40px;
+} */
+
+.whole {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+
+        url(../img/sliderimg02.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-carousel {
+    padding-top: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 25em;
+    background-color: transparent;
+    align-items: center;
+    /* height: 50px; */
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+    font-size: 19px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 10s ease ease-in-out;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 15px 16px;
+    z-index: 1;
+    border-top: 4px solid #f26e01;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
+    color: #f26e01;
+}
+
+/* Dropdown */
+
+ul .st {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+ul .st a {
+    text-decoration: none;
+    color: #f26e01;
+    font-size: 16px;
+}
+
+ul .ls {
+    background-color: #f26e01;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+ul .ls a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+nav ul li a:hover {
+    color: #f26e01;
+}
+
+.text-slider {
+    margin-top: 40px;
+}
+
+/* Carousel start */
+.cell {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 130px;
+    /* margin: 5px; */
+    color: white;
+}
+
+/* Carousel ends */
+
+.who {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    padding-top: 50px;
+    background-color: #f26e01;
+    height: 400px;
+}
+
+.who h1 {
+    font-size: 45px;
+    border-bottom: 5px solid black;
+    width: 290px;
+    color: #ffffff;
+}
+
+.who p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.who img {
+    border-radius: 12px;
+}
+
+.we {
+    padding-left: 50px;
+}
+
+.com {
+    padding-right: 70px;
+}
+
+.what {
+    padding-top: 50px;
+    background-color: whitesmoke;
+}
+
+.what h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.do {
+    display: flex;
+    justify-content: space-around;
+}
+
+.see {
+    background-color: #f26e01;
+    width: 500px;
+    height: 350px;
+    padding: 40px;
+    color: #ffffff;
+}
+
+.see h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.see p {
+    font-size: 20px;
+}
+
+.seee {
+    background-color: crimson;
+    width: 500px;
+    height: 350px;
+    padding: 40px;
+    color: #ffffff;
+}
+
+.seee h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.seee p {
+    font-size: 20px;
+}
